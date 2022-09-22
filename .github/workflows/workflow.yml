@@ -16,7 +16,7 @@ env:
   DOTNET_VERSION: '3.1'           # set this to the dot net version to use
   AZURE_RESOURCE_GROUP: nfs_students   # set this to your preferred resource group name
   SQLSERVER_NAME: demo-webappsql-gh-actions-srv-bplesant                          # set this to your preferred sql server name
-  DATABASE_NAME: demo-webappsql-gh-actions-db-bplesant                   # set this to your preferred sql database name
+  DATABASE_NAME: demo-webappsql-gh-actions-db-bplesant               # set this to your preferred sql database name
   SQLADMIN_LOGIN: ${{ secrets.SQLADMIN_LOGIN  }}                # Create a secret in your Github repo for the SQL Admin login name you want to use
   SQLADMIN_PASS: ${{ secrets.SQLADMIN_PASS  }}                 # Create a secret in your Github repo for the SQL Admin password you want to use
   
